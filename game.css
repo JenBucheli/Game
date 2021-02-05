@@ -92,12 +92,12 @@ body{
 }
 
 @media(max-width: 700px) {
-    .option > #rock #scissors {
+    .option {
         font-size: 110px;
     }
 }
 @media(max-width: 700px) {
-    .option > #rock #scissors {
-        font-size: 80px;
+    .option {
+        font-size: 50px;
     }
 }
