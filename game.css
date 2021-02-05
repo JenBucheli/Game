@@ -1,0 +1,103 @@
+/*universal selector*/
+
+
+
+body{
+    font-family: Roboto,sans-serif;
+    line-height: 16px;
+    background-color: whitesmoke;
+    color: salmon;
+}
+
+.container{
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.restart-btn{
+    display:inline-block;
+    background-color: salmon;
+    padding: 0.4rem 1.3rem;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.restart-btn:hover{
+    background-color: mediumspringgreen;
+}
+
+.header {
+    text-align: center;
+    margin: 16px 0;
+}
+
+.header h1 {
+    margin-bottom: 16px;
+}
+
+.score{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 16px;
+
+}
+
+.score p:first-child{
+    background-color: mediumspringgreen;
+    padding: 1em;
+    color: black;
+    border: black solid;
+}
+
+
+.score p:last-child{
+    background-color: mediumslateblue;
+    padding: 1em;
+    color: black;
+    border: black solid;
+}
+
+.options{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap:2em;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#rock:hover{
+    color: mediumslateblue;
+    cursor: pointer;
+}
+#paper:hover {
+    color: mediumslateblue;
+    cursor: pointer;
+}
+#scissors:hover{
+     color: mediumslateblue;
+    cursor: pointer;
+}
+#lizard:hover{
+      color: mediumslateblue;
+    cursor: pointer;
+}
+#spock:hover{
+       color: mediumslateblue;
+    cursor: pointer;
+}
+
+@media(max-width: 700px) {
+    .option > #rock #scissors {
+        font-size: 110px;
+    }
+}
+@media(max-width: 700px) {
+    .option > #rock #scissors {
+        font-size: 80px;
+    }
+}
